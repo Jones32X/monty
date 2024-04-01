@@ -3,9 +3,9 @@
 /**
  * f_mod - computes the rest of the division of the second
  * top element of the stack by the top element of the stack
- * @head: stack head
- * @counter: line_number
- * Return: no return
+ * @head: stack h
+ * @counter: Line No.
+ * Return: none
 */
 
 void f_modulus(stack_t **head, unsigned int counter)
@@ -20,7 +20,7 @@ void f_modulus(stack_t **head, unsigned int counter)
 	while (h)
 	{
 		h = h->next;
-		length;
+		length++;
 	}
 
 	if (length < 2)
